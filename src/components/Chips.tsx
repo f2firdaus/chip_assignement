@@ -24,7 +24,7 @@ const Chips = () => {
     setIsListOpen(true);
 
     if (e.target.value === "" && selectedTag.length > 0) {
-      setHighlightedChip(selectedTag[selectedTag.length - 1].name); // Highlight last chip
+      setHighlightedChip(selectedTag[selectedTag.length - 1].name);
     } else {
       setHighlightedChip(null);
     }
